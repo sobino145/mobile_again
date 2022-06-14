@@ -1,0 +1,210 @@
+@import url(../css/common.css);
+@import url(../css/header.css);
+@import url(../css/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+  font-family: 'SDSwaggerTTF';
+  src: url('../font/SDSwaggerTTF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3{
+  font-family: 'SDSwaggerTTF';
+  font-size: 20px;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  margin-left: 10px;
+  text-shadow: 10px 10px 5px #a8a7a7;
+}
+
+/* 비주얼 영역 */
+
+#visual{
+  width: 100%;
+  height: 13.125rem;
+}
+#visual embed{
+  width: 100%;
+  height: 100%;
+}
+
+/* 섹션 영역 */
+/* ________________________________________section 1 */
+.s1_box{
+  width: 100%;
+  height: 100%;
+}
+.s1_box .gallery1 .swiper-slide img{
+  width: 50%;
+  height: 100%;
+}
+.s1_box .gallery1 .swiper-slide{
+  display: flex;
+  flex-direction: row;
+}
+.txt_boxnav{width: 45%;}
+.s1_box .gallery1 .swiper-slide p{
+  text-align: center;
+  font-family: 'SDSwaggerTTF';
+  font-size: 16px;
+  font-size: 1rem;
+}
+.s1_box .gallery1 .swiper-slide span{
+  display: block;
+  margin-top: 0.63rem;
+  font-size: 11px;
+  font-size: 0.69rem;
+  padding: 0.63rem;
+}
+/* 섹션 1 플러그인 */
+
+.gallery1 { overflow:hidden; position:relative; margin:0 auto; width:99%; height:100%; /* border:1px solid #111; */ } /* 갤러리 전체영역 설정 */
+.gallery1 .nav1 { position: absolute; left:0px; bottom:-10px; text-align: center;  z-index: 10; } /* 메뉴영역 설정 */
+.gallery1 .nav1 .swiper-pagination-bullet { background-color:#101111; opacity:0.5; width:10px; height:10px; margin-left:5px; border-radius:0; } /* 메뉴 설정 */
+.gallery1 .nav1 .swiper-pagination-bullet-active{ background-color:#DDD7D7; opacity:1; } /* 메뉴on 설정 */
+.gallery1 .swiper-button-prev, 
+.gallery1 .swiper-button-next { position:absolute; top:60%; width:27px; height:44px; margin-top:-0px; z-index:10; cursor:pointer; background-size:cover; }
+.gallery1 .swiper-button-prev { left:50px; /* background:url(); */ } /* 이전버튼 */
+.gallery1 .swiper-button-next { right:50px; /* background:url(); */ } /* 다음버튼 */
+
+/* ///////////////////////////////////////////////////////////// */
+
+.s1_box h3{width: 100%;}
+.intro_albox{
+  width: 600%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  /* overflow: hidden; */
+}
+.intro_box{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  margin-right: 0.94rem;
+}
+.intro_box img{width: 9.38rem;}
+.intro_box p{
+  width: 9.38rem;
+  font-size: 11px;
+  font-size: 0.69rem;
+  text-align: center;
+  padding: 0.31rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.intro_box p .showTxt{
+  font-family: 'SDSwaggerTTF';
+  font-size: 18px;
+  font-size: 1.13rem;
+  text-align: center;
+  display: block;
+}
+.intro_box .txt_box_w{
+  width: 8.75rem;
+  background: #9C9DA0;
+}
+.intro_box .txt_box_b{
+  width: 8.75rem;
+  background: #101111;
+  color:#DDD7D7;
+}
+
+/* ________________________________________section 2 */
+.s2_box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.94rem 0;
+}
+.s2_box p{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.graph_box{
+  width: 80%;
+ /*  height: 10.38rem; */
+  background-color: #9C9DA0;
+  padding: 20px;
+  border-radius: 30px;
+}
+.graph_box>div>p>span{
+  text-shadow:0px 0px 10px #fbfbfc,
+              0px 0px 20px #f39eeb;
+}
+.graph{
+  margin-top: 10px;
+  width: 90%;
+  height: 10%;
+  margin: 0 auto;
+  border-radius: 20px;
+  position: relative;
+  background-color: #e6e3e3;
+  position: relative;
+}
+.in_graph{
+  width: 30%;
+  height: 3.88 rem;
+  background-color: #FF71F1;
+  opacity: 1;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px #f39eeb;
+  text-align: right;
+}
+
+/* ________________________________________section 3 */
+.s3_box{
+  width: 100%;
+  height: 34.375rem;
+  margin-bottom: 10px;
+  background-color: #C4C4C4;
+}
+.s3_box p{
+  margin: 10px auto;
+  width: 100%;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+.s3_box img{
+  width: 100%;
+  height: 100%;
+}
+
+/* =============last box 플러그인=============================*/
+.swiper-container {
+  width: 80%;
+  height: 80%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+
+/* ============================================================== */

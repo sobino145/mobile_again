@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'SDSwaggerTTF';
+  src: url('../font/SDSwaggerTTF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+footer{
+  width: 100%;
+  background-color: #C4C4C4;
+  padding: 1.250rem 0;
+}
+.in_footer{
+  height: 6.250rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content:space-around;
+}
+.in_footer img{width: 5.813rem;}
+
+address{
+  font-family: 'SDSwaggerTTF';
+  font-size: 16px;
+  font-size: 1rem;
+  font-style: normal;
+}

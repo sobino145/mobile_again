@@ -1,0 +1,176 @@
+@import url(../css/common.css);
+@import url(../css/header.css);
+@import url(../css/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+  font-family: 'SDSwaggerTTF';
+  src: url('../font/SDSwaggerTTF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3{
+  font-family: 'SDSwaggerTTF';
+  font-size: 20px;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  margin-left: 10px;
+  text-shadow: 10px 10px 5px #a8a7a7;
+}
+
+/* 비주얼 영역 */
+
+#visual{
+  width: 100%;
+  height: 19.38rem;
+}
+#visual .in_visual{
+  width: 100%;
+  height: 100%;
+}
+#visual .in_visual img{
+  width: 100%;
+  height: 80%;
+}
+
+/* 섹션 영역 */
+/* ________________________________________section 1 */
+.s1_box{
+  padding: 1rem;
+}
+/* 플러그인 사용 영역 */
+.swiper-container {
+  width: 100%;
+  height: 300px;
+  margin: 20px 0;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-direction: row;
+}
+/* 플러그인 사용 끝================================================ */
+
+
+.swiper-slide>img{
+  width: 50%;
+  height: 100%;
+}
+.txt_box{width: 50%;}
+.txt_box>p{
+  font-family: 'SDSwaggerTTF';
+}
+.txt_box>span{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  color: #252525;
+}
+.title_image{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.title_image img{height: 80%;}
+.title_image>p{
+  font-family: 'SDSwaggerTTF';
+  font-size: 1rem;
+}
+
+
+
+/* ________________________________________section 2 */
+.s2_box{
+  width: 100%;
+  background-color: #6c6c6c;
+  padding: 0.625rem 0;
+}
+.s2_box h3{color: rgb(19, 18, 18);}
+.s2_box>ul{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.graph{
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.in_graph{
+  width: 50%;
+  height: 30px;
+  background-color: aquamarine;
+  display: inline-block;
+  line-height: 30px;
+  position: relative;
+  border-radius: 20px;
+}
+.graph>span{
+  position: absolute;
+  line-height: 30px;
+  vertical-align: middle;
+}
+.s2_box>ul>li{
+  line-height: 30px;
+  margin-top: 10px;
+}
+.s2_box>ul>li>p{
+  font-size: 0.875rem;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.gw1{width: 5.8%;}
+.gw2{width: 6.4%;}
+.gw3{width: 8.1%;}
+.gw4{width: 7.0%;}
+.gw5{width: 9.7%;}
+.gw6{width: 8.5%;}
+.gw7{width: 9.6%;}
+.gw8{width: 8.6%;}
+.gw9{width: 10.1%;}
+.gw10{width: 9.6%;}
+.gw11{width: 10.7%;}
+.gw12{width: 9.5%;}
+.gw13{width: 11.0%;}
+.gw14{width: 9.9%;}
+.gw15{width: 12.0%;}
+.gw16{width: 10.5%;}
+
+.low_g{background: #B3CFF2;}
+.high_g{background-color: #f18de0;}
+.low_gt{color: blue;}
+.high_gt{color: red;}
+.vod_btn{
+  width: 80%;
+  height: 1.875rem;
+  background: #3098D9;
+  margin: 0.625rem auto;
+  text-align: center;
+  line-height: 1.875rem;
+  border-radius: 1.25rem;
+  color:#fff;
+}
+.vod_btn:hover{
+  background: #c9c0c0;
+  color: #3098D9;
+}
