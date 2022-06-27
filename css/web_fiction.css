@@ -46,17 +46,25 @@ section{padding: 1.625rem 0;}
   font-size: 0.81rem;
   line-height: 1rem;
 }
+.gallery1{height: 100%;}
 
 .slide_content{
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: auto;
 }
-.slide_content>img{
+.Simg_box{
   width: 50%;
+  height: 100%;
+}
+.slide_content>.Simg_box>img{
+  width: 100%;
+  height: 100%;
 }
 .content_intxt{
   width: 50%;
+  height: 100%;
   padding: 0.625rem;
 }
 .content_intxt p{
@@ -78,10 +86,17 @@ section{padding: 1.625rem 0;}
 .gallery1 .swiper-button-next { right:50px; /* background:url(); */ } /* 다음버튼 */
 
 /* ____________________플러그인 영역 마무리_________________________ */
-
+.swiper-wrapper{
+  height: auto;
+}
+.nav1{
+  position: absolute;
+  bottom: 0;
+}
 /* ________________________________________section 2 */
 .s2_box{
   width: 100%;
+  margin-top: 60px;
 }
 .forget_C ul{
   width: 90%;
