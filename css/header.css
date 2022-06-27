@@ -41,8 +41,8 @@ header h1 img{height:45px;}   /*로고 사이즈 줄임*/
 	background-color:rgba(42,41,41,0.9); 
 }
 .gnb .gnb_list>li{
-	height:45px;
-	line-height:45px;
+	height:35px;
+	line-height:35px;
   margin: 1.5rem 0;
 }
 .gnb .gnb_list>li:last-child{margin: 0;}
@@ -54,7 +54,7 @@ header h1 img{height:45px;}   /*로고 사이즈 줄임*/
 	display:block;
   width: 80%;
   margin: 0.25rem auto;
-  padding: 0.1rem;
+  padding: 0.05rem;
 	font-size:16px; 
 	font-size:1rem;
   background-color: #C4C4C4; 
